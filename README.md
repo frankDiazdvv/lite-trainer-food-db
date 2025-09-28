@@ -8,11 +8,17 @@ Our database is bilingual and contains macronutrients based on 100g of each food
 - `food.json` — array of food objects. Example item:
 ```json
 {
-  "id": "banana-raw",
-  "name": "Banana, raw",
-  "serving_size": "118 g",
-  "calories": 105,
-  "protein_g": 1.3,
-  "carbs_g": 27,
-  "fat_g": 0.3
-}
+  "id": "local-35",
+  "es_product_name": "Leche Entera",
+  "en_product_name": "Whole Milk",
+  "category": { "en": "Cheese & Dairy", "es": "Quesos y Lácteos" },
+  "nutriments": {
+    "energy-kcal_100g": 61,
+    "proteins_100g": 3.2,
+    "carbohydrates_100g": 4.8,
+    "fat_100g": 3.3
+  },
+  "foodMeasures": [
+      {"es_disseminationText": "Vaso", "en_disseminationText": "Cup", "gramWeight": 250, "measureId": 1062}
+  ]
+},
