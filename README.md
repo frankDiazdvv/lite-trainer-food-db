@@ -2,7 +2,7 @@
 
 A curated JSON food database used by LITE Trainer Coaching.  
 Our database is bilingual and contains macronutrients based on 100g of each food.
-**Use:** free to use (CC0) — see LICENSE.
+**Use:** free to use but give credit (CC-BY) — see LICENSE.
 
 ## What’s inside
 - `ingredients.json` — array of food objects. Example item:
